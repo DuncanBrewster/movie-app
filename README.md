@@ -2,4 +2,4 @@
 
 A movie app made with React. Features include a default list of popular current movies, a search bar that allows you to search for a particular movie, ratings, and overviews with mouse over.
 
-![movie-app](https://user-images.githubusercontent.com/87501964/143147537-571da1fa-a42f-4ebf-b6b7-957fa4884c9f.PNG)
+![image](https://user-images.githubusercontent.com/87501964/148623580-8c4a2273-8f0e-42a2-8a87-eac3efa9ddb2.png)
