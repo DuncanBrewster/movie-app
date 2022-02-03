@@ -29,17 +29,32 @@ header {
   background-color: #212121;
   padding: 1rem;
   display: flex;
-  justify-content: flex-end;
+}
+
+.home {
+  font-size: 2rem;
+  margin-right: 20px;
+  margin-top: 7px;
+  cursor: pointer;
 }
 
 .search {
+  width: 400px;
   font-family: inherit;
   font-size: 1.2rem;
-  border: 2px solid #141414;
+  border: 5px solid #141414;
   border-radius: 30px;
-  background-color: transparent;
+  background-color: #141414;
   color: white;
   padding: 0.5rem 1.5rem;
+}
+
+.search::placeholder {
+  color: white;
+}
+
+.search:focus::placeholder {
+  color: grey;
 }
 
 .movie {
@@ -106,4 +121,16 @@ header {
 
 .tag.red {
   color: red;
+}
+
+@media screen and (max-width: 680px) {
+
+  header {
+    justify-content: space-between;
+  }
+
+  .search {
+    width: 300px;
+    left: 0;
+  }
 }

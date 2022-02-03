@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
 import React, { useEffect, useState } from "react";
 
 import Movie from "./components/Movie";
@@ -36,10 +38,17 @@ function App() {
   const handleOnChange = (e) => {
     setSearchTerm(e.target.value);
   };
+
+  const goHome = (e) => {
+    window.location.reload(false);
+  }
   
     return (
       <>
         <header>
+          <div onClick={goHome}>
+            <FontAwesomeIcon icon ={faHome} className="home"></FontAwesomeIcon>
+          </div>
           <form onSubmit={handleOnSubmit}>
             <input
             className="search" 
