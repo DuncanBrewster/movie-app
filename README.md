@@ -27,4 +27,5 @@ This project:
 
 * was built with **React**.
 * is styled with **CSS**.
+* uses **Fetch API** for database queries.
 * hosted on [Netlify](https://duncan-movie-app.netlify.app).
