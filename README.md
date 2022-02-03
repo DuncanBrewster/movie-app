@@ -2,6 +2,29 @@
 
 # [Movie App](https://duncan-movie-app.netlify.app)
 
-A movie app made with React. Features include a default list of popular current movies, a search bar that allows you to search for a particular movie, ratings, and overviews with mouse over.
+A movie app made with React that allows users to search for and read the overview of movies. This project is currently hosted on [Netlify](https://duncan-movie-app.netlify.app).
 
+## Features
+* Homescreen shows the most current popular movies 
+* Search bar allows the user to search for a particular movie
+* Movie overviews accessible when a movie is hovered over
+* Retrieves API data from [The Movie Data Base](https://www.themoviedb.org)
+* Is mobile and desktop friendly
 
+## Installation
+
+1. Clone the repository to your computer.
+
+```bash
+git clone https://github.com/DuncanBrewster/movie-app.git
+```
+
+2. To view the project locally, navigate to the project folder and open the `index.html` file in a web browser.
+
+## Tools
+
+This project:
+
+* was built with **React**.
+* is styled with **CSS**.
+* hosted on [Netlify](https://duncan-movie-app.netlify.app).
